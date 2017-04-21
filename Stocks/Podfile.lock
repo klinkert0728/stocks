@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - AlamofireObjectMapper (4.0.2):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - DateTools (2.0.0)
+  - ObjectMapper (2.2.3)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxRealm (0.5.1):
+    - RealmSwift (~> 2.2)
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - SBPickerSelector (1.2.0)
+  - SVProgressHUD (2.1.2)
+  - SwipeCellKit (1.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireObjectMapper
+  - DateTools
+  - ObjectMapper
+  - RealmSwift
+  - RealReachability
+  - RxCocoa
+  - RxRealm
+  - RxSwift
+  - SBPickerSelector
+  - SVProgressHUD
+  - SwipeCellKit
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  AlamofireObjectMapper: 94923a4320bbe52c1d0d462093277a9d6a755a78
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  ObjectMapper: d3b3de11267f5d971f390eb8d63dd509116a4329
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxRealm: c80d17d42fc362f4d8af4ac62de360b014be5c3f
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SBPickerSelector: ca8defc713bf229a35a06100ba2e6e96c424ac6a
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwipeCellKit: b67aaf050b1823cf33b6e7752360d948a5e13671
+
+PODFILE CHECKSUM: 38b5725fc276257dd2f0844739ef90d8667ecdb2
+
+COCOAPODS: 1.2.1
