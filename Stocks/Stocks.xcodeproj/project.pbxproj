@@ -14,8 +14,14 @@
 		967592C01EAA79FA00A430AD /* StockPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592BF1EAA79FA00A430AD /* StockPreviewTableViewCell.swift */; };
 		967592C31EAA7A4800A430AD /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592C21EAA7A4800A430AD /* Stock.swift */; };
 		967592C61EAA7AF500A430AD /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592C51EAA7AF500A430AD /* BaseTableViewController.swift */; };
+		967592C91EAD6DB600A430AD /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592C81EAD6DB600A430AD /* RealmHelper.swift */; };
+		967592CD1EAD780B00A430AD /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592CB1EAD780B00A430AD /* EmptyTableViewCell.swift */; };
+		967592CE1EAD780B00A430AD /* EmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967592CC1EAD780B00A430AD /* EmptyTableViewCell.xib */; };
+		967592D11EAD7DA800A430AD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592D01EAD7DA800A430AD /* SearchViewController.swift */; };
+		967592D41EAD8E7B00A430AD /* SearchCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592D21EAD8E7B00A430AD /* SearchCellTableViewCell.swift */; };
+		967592D51EAD8E7B00A430AD /* SearchCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967592D31EAD8E7B00A430AD /* SearchCellTableViewCell.xib */; };
+		967592DA1EADA10200A430AD /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967592D91EADA10200A430AD /* FilterViewController.swift */; };
 		96BA22921EAA73B900640531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA22911EAA73B900640531 /* AppDelegate.swift */; };
-		96BA22941EAA73B900640531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA22931EAA73B900640531 /* ViewController.swift */; };
 		96BA22971EAA73B900640531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BA22951EAA73B900640531 /* Main.storyboard */; };
 		96BA22991EAA73B900640531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BA22981EAA73B900640531 /* Assets.xcassets */; };
 		96BA229C1EAA73B900640531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BA229A1EAA73B900640531 /* LaunchScreen.storyboard */; };
@@ -31,9 +37,15 @@
 		967592BF1EAA79FA00A430AD /* StockPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		967592C21EAA7A4800A430AD /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		967592C51EAA7AF500A430AD /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		967592C81EAD6DB600A430AD /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		967592CB1EAD780B00A430AD /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
+		967592CC1EAD780B00A430AD /* EmptyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyTableViewCell.xib; sourceTree = "<group>"; };
+		967592D01EAD7DA800A430AD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		967592D21EAD8E7B00A430AD /* SearchCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCellTableViewCell.swift; sourceTree = "<group>"; };
+		967592D31EAD8E7B00A430AD /* SearchCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCellTableViewCell.xib; sourceTree = "<group>"; };
+		967592D91EADA10200A430AD /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		96BA228E1EAA73B900640531 /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BA22911EAA73B900640531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96BA22931EAA73B900640531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96BA22961EAA73B900640531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96BA22981EAA73B900640531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96BA229B1EAA73B900640531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +84,9 @@
 		967592BA1EAA78D400A430AD /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				967592D81EADA0EE00A430AD /* Filter */,
+				967592CF1EAD7D8F00A430AD /* Search */,
+				967592CA1EAD77F900A430AD /* EmptyCell */,
 				967592BB1EAA78E700A430AD /* StockPreviewTableViewController.swift */,
 				967592BD1EAA78F800A430AD /* StockPreviewTableViewCell.xib */,
 				967592BF1EAA79FA00A430AD /* StockPreviewTableViewCell.swift */,
@@ -95,6 +110,41 @@
 			path = BaseControllers;
 			sourceTree = "<group>";
 		};
+		967592C71EAD6D7F00A430AD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				967592C81EAD6DB600A430AD /* RealmHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		967592CA1EAD77F900A430AD /* EmptyCell */ = {
+			isa = PBXGroup;
+			children = (
+				967592CB1EAD780B00A430AD /* EmptyTableViewCell.swift */,
+				967592CC1EAD780B00A430AD /* EmptyTableViewCell.xib */,
+			);
+			path = EmptyCell;
+			sourceTree = "<group>";
+		};
+		967592CF1EAD7D8F00A430AD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				967592D01EAD7DA800A430AD /* SearchViewController.swift */,
+				967592D21EAD8E7B00A430AD /* SearchCellTableViewCell.swift */,
+				967592D31EAD8E7B00A430AD /* SearchCellTableViewCell.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		967592D81EADA0EE00A430AD /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				967592D91EADA10200A430AD /* FilterViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
 		96BA22851EAA73B900640531 = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +166,12 @@
 		96BA22901EAA73B900640531 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
+				967592C71EAD6D7F00A430AD /* Helpers */,
 				967592C41EAA7AE600A430AD /* BaseControllers */,
 				967592C11EAA7A3400A430AD /* Model */,
 				967592BA1EAA78D400A430AD /* Home */,
 				967592B71EAA77B000A430AD /* Networking */,
 				96BA22911EAA73B900640531 /* AppDelegate.swift */,
-				96BA22931EAA73B900640531 /* ViewController.swift */,
 				96BA22951EAA73B900640531 /* Main.storyboard */,
 				96BA22981EAA73B900640531 /* Assets.xcassets */,
 				96BA229A1EAA73B900640531 /* LaunchScreen.storyboard */,
@@ -202,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BA229C1EAA73B900640531 /* LaunchScreen.storyboard in Resources */,
+				967592CE1EAD780B00A430AD /* EmptyTableViewCell.xib in Resources */,
 				96BA22991EAA73B900640531 /* Assets.xcassets in Resources */,
+				967592D51EAD8E7B00A430AD /* SearchCellTableViewCell.xib in Resources */,
 				96BA22971EAA73B900640531 /* Main.storyboard in Resources */,
 				967592BE1EAA78F800A430AD /* StockPreviewTableViewCell.xib in Resources */,
 			);
@@ -263,11 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BA22941EAA73B900640531 /* ViewController.swift in Sources */,
+				967592D11EAD7DA800A430AD /* SearchViewController.swift in Sources */,
+				967592D41EAD8E7B00A430AD /* SearchCellTableViewCell.swift in Sources */,
 				967592BC1EAA78E700A430AD /* StockPreviewTableViewController.swift in Sources */,
+				967592CD1EAD780B00A430AD /* EmptyTableViewCell.swift in Sources */,
 				967592C31EAA7A4800A430AD /* Stock.swift in Sources */,
+				967592DA1EADA10200A430AD /* FilterViewController.swift in Sources */,
 				967592C61EAA7AF500A430AD /* BaseTableViewController.swift in Sources */,
 				967592B91EAA77D000A430AD /* DKHEndPoint.swift in Sources */,
+				967592C91EAD6DB600A430AD /* RealmHelper.swift in Sources */,
 				967592C01EAA79FA00A430AD /* StockPreviewTableViewCell.swift in Sources */,
 				96BA22921EAA73B900640531 /* AppDelegate.swift in Sources */,
 			);

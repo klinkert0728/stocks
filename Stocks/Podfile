@@ -14,7 +14,7 @@ target 'Stocks' do
     pod 'RxCocoa'
     pod 'RxRealm'
     pod 'AlamofireObjectMapper'
-    pod 'SwipeCellKit'
+    
 end
 
 post_install do |installer|

@@ -25,10 +25,13 @@ class BaseTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     func configureAppearance() {
-        
+        tableView.tableFooterView   = UIView()
+        tableView.separatorStyle    = .none
     }
     
     func registerCells() {
+        
+        tableView.register(UINib(nibName:"EmptyTableViewCell",bundle:nil), forCellReuseIdentifier: "EmptyTableViewCell")
         
     }
 }

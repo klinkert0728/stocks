@@ -29,6 +29,9 @@ extension APIEndpoint {
 
 enum DKHEndPoint {
     
+    case search(symbol:String)
+    case lookup(name:String)
+    
     
     
 }
@@ -39,22 +42,27 @@ extension DKHEndPoint:APIEndpoint {
     
     var baseUrl:URL {
         switch  self {
+            
         default:
-            return URL(string: "")!
+            return URL(string:"http://dev.markitondemand.com/Api/v2/")!
         }
     }
     
     var path:String {
         switch self {
-        default:
-            return ""
+        case .search(symbol: _):
+            return "Quote/json"
+            
+            
+        case .lookup(name:_):
+            return "Lookup/json"
         }
     }
     
     var method: HTTPMethod {
         
         switch self {
-        
+            
         default:
             return .get
         }
@@ -63,9 +71,12 @@ extension DKHEndPoint:APIEndpoint {
     var parameters:[String:Any]? {
         
         switch  self {
-       
-        default:
-            return ["":""]
+            
+        case .search(symbol: let currentSymbol):
+            return ["symbol":currentSymbol]
+            
+        case .lookup(name: let name):
+            return ["input":name]
         }
     }
     
@@ -78,6 +89,6 @@ extension DKHEndPoint:APIEndpoint {
     }
     
     var parameterEncoding:URLEncoding {
-        return URLEncoding.httpBody
+        return URLEncoding.queryString
     }
 }
