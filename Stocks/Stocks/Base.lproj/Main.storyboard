@@ -55,7 +55,7 @@
                     <connections>
                         <segue destination="5NV-W5-BKD" kind="show" identifier="searchSegue" id="VHB-v5-i04"/>
                         <segue destination="Esq-53-nUN" kind="popoverPresentation" identifier="filterSegue" popoverAnchorView="Rxf-KM-twZ" id="bWg-j0-N4I">
-                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                            <popoverArrowDirection key="popoverArrowDirection"/>
                         </segue>
                     </connections>
                 </tableViewController>

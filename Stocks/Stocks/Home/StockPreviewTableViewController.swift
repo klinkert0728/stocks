@@ -144,9 +144,8 @@ class StockPreviewTableViewController: BaseTableViewController {
           
             popover.delegate    = self
             popover.sourceView  = self.view
-            popover.sourceRect  = CGRect(x:100,y:100,width:0,height:0)
-            
-           
+            popover.sourceRect  = CGRect(x:230,y:250,width:0,height:0)
+
         }
     }
     
@@ -169,9 +168,11 @@ class StockPreviewTableViewController: BaseTableViewController {
 
 extension StockPreviewTableViewController:UIPopoverPresentationControllerDelegate {
     
-    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
-        return UIModalPresentationStyle.none
+    
+    func adaptivePresentationStyle(for controller:UIPresentationController) -> UIModalPresentationStyle {
+        return .none
     }
+    
     
     
 }
